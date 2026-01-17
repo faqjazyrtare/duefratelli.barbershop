@@ -268,10 +268,7 @@
   background: #000;
   box-sizing: border-box;
 }
-.video-slider video {
-  height: 480px;
-  object-fit: cover;
-}
+
 
 
 
