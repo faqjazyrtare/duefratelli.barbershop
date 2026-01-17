@@ -238,28 +238,28 @@
 .price-list strong {
   font-weight: 600;
 }
-.gallery-slider {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-top: 20px;
-}
 
-.gallery-track {
+.video-slider {
   display: flex;
-  gap: 12px;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px 5px;
 }
 
-.gallery-track img {
-  width: 260px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
+.video-slider::-webkit-scrollbar {
+  display: none;
 }
-.gallery-track video {
-  width: 100%;
+
+.video-slider video {
+  flex: 0 0 80%;
+  max-width: 80%;
+  height: 420px;
   border-radius: 16px;
+  scroll-snap-align: start;
+  object-fit: cover;
   border: 2px solid #fff;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
   background: #000;
 }
+
+
