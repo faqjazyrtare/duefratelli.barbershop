@@ -8,7 +8,7 @@
 /* HERO */
 .hero {
   height: 100vh;
-  background: url("images/hero1.jpg") center/cover no-repeat;
+  background: url("images/heri2.jpg") center/cover no-repeat;
   position: relative;
 }
 
@@ -272,6 +272,7 @@
   height: 480px;
   object-fit: cover;
 }
+
 
 
 
