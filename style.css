@@ -8,7 +8,7 @@
 /* HERO */
 .hero {
   height: 100vh;
-  background: url("images/hero.jpg") center/cover no-repeat;
+  background: url("images/hero1.jpg") center/cover no-repeat;
   position: relative;
 }
 
@@ -261,5 +261,6 @@
   border: 2px solid #fff;
   background: #000;
 }
+
 
 
